@@ -15,7 +15,7 @@
     "ios": "react-native-scripts ios",
     "test": "jest",
     "postinstall": "rndebugger-open",
-    "cucumber": "cucumber-js --require-module babel-register ./cucumber/features -r ./cucumber/steps"
+    "cucumber": "cucumber-js --require-module babel-register --require-module jest ./cucumber/features -r ./cucumber/steps"
   },
   "jest": {
     "preset": "jest-expo"
