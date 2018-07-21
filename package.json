@@ -14,12 +14,14 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
-    "postinstall": "rndebugger-open"
+    "postinstall": "rndebugger-open",
+    "cucumber": "cucumber-js ./cucumber/features -r ./cucumber/steps"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "cucumber": "^4.2.1",
     "expo": "^27.0.1",
     "global": "^4.3.2",
     "react": "16.3.1",
