@@ -1,5 +1,4 @@
-const { Given, When, Then, Before } = require('cucumber')
-// import {Given} from 'cucumber';
+import {Given, Before, When, Then} from 'cucumber';
 
 Before({tags: "@Calculator"}, function() {
   console.log("this is a Before block");
